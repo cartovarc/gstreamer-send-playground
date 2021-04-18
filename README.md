@@ -22,7 +22,7 @@ mv $HOME/Desktop/gstreamer-send-playground $HOME/Desktop/example-webrtc-applicat
 
 ### Open with VS Code
 ```bash
-code $HOME/example-webrtc-applications/gstreamer-send
+cd $HOME/Desktop/example-webrtc-applications/gstreamer-send && code .
 ```
 
 ### Run
