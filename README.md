@@ -27,9 +27,14 @@ cd $HOME/Desktop/example-webrtc-applications/gstreamer-send && code .
 
 ### Run
 - Open html/demo.html on a browser
-- Copy SDP to activate.sh
-- source activate.sh
-- Copy terminal SDP in browser and "Start Session"
+```bash
+chromium-browser html/demo.html &
+```
+- Copy SDP from browser to activate.sh file (next to export BROWSER_SDP=) and execute activate.sh
+```bash
+source activate.sh
+```
+- Copy Golang SDP in browser and "Start Session"
 
 
 ## Utils
